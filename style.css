@@ -1,0 +1,95 @@
+/********** BEGINNGING OF HEADER SECTION ***********/
+
+#header-nav {
+	background-color: #ffb700;
+	border-radius: 0;
+	border: 0;
+	margin-bottom: 20px;
+} 
+
+ #menu-button {
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	border-color: #0b0d38;
+}
+h1 {
+	font-size: 10pw;
+	font-weight: bold;
+	color: #0b0d38;
+}
+ /*********** END OF HEADER SECTION **********/
+
+/************ BEGINNING OF MAIN BODY ************/
+
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.food-item {
+	background-color: #fffa70;
+	width: 1500px
+	margin: 20px 10px 20x 10px;
+}
+
+
+.food-item h3 {
+	font-size: 30px;
+}
+
+.food-item p {
+	font-size: 15px;
+	padding: 5px;
+	margin: 10px;
+}
+
+
+/************ END OF MAIN BODY ***************/
+
+/************** Large Devices Only **************/
+@media (min-width: 1200px) {
+
+.navbar-toggler {
+	display: none;
+}
+}
+
+/************* Medium Devices Only ***************/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.navbar-toggler {
+	display: none;
+}
+
+}
+
+
+/************* Small Devices Only **************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/************* XS Devices Only ******************/
+
+@media (max-width: : 767px) {
+
+.food-item {
+	background-color: #fffa70;
+	bottom-margin: 30px;
+	top-margin: 30px;
+	width: 300px
+}
+
+.food-item h3 {
+	font-size: 30px;
+}
+
+.food-item p {
+	font-size: 15px;
+	padding: 5px;
+	margin: 10px;
+}
